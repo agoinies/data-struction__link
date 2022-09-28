@@ -1,0 +1,7 @@
+#include<stdio.h>
+struct datastructlink{
+  int data;
+  struct link *next;
+}
+
+typedef struct datastructlink DL
